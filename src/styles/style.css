@@ -1,5 +1,6 @@
 @import url("./global.css");
 
+/* HEADER */
 header{
     display: flex;
     justify-content: space-around;
@@ -34,4 +35,48 @@ header{
     color: var(--color-neutral-white);
     font-family: var(--font-family-primary);
     font-weight: var(--font-weight-button);
+}
+
+/* MAIN */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: var(--color-secondary);
+    padding: 100px 0;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 497px;
+}
+
+.main-content h1{
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h1);
+    color: var(--color-neutral-white);
+}
+
+.main-content h1 span{
+    color: var(--color-primary);
+}
+
+.main-content p{
+    font-family: var(--font-family-primary);
+    color: var(--color-neutral-white);
+    letter-spacing: 0.5px;
+}
+
+.btn-secondary{
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    padding: 10px 25px;
+    width: 139px;
+    border-radius: 8px;
+    color: var(--color-neutral-white);
+    border: 1px solid var(--color-primary);
 }
