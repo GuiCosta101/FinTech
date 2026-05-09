@@ -80,3 +80,13 @@ main{
     color: var(--color-neutral-white);
     border: 1px solid var(--color-primary);
 }
+
+/* SECTION SERVICE */
+.section-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 0;
+    background-color: var(--color-neutral-white);
+}
