@@ -90,3 +90,27 @@ main{
     padding: 60px 0;
     background-color: var(--color-neutral-white);
 }
+
+.service-presention{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service-presention h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--color-secondary);
+    width: 607px;
+}
+
+.section-services h2 span{
+    color: var(--color-primary);
+}
+
+.service-presention p{
+    font-family: var(--font-family-primary);
+    width: 603px;
+    letter-spacing: 0.5px;
+}
